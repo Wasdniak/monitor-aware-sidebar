@@ -2,6 +2,8 @@
 
 Puts Zen's sidebar on the **left** in windows on your left monitor and on the **right** in windows on your right monitor. Each window decides for itself, so two windows on different monitors can have opposite sides at the same time. Drag a window across and its sidebar follows within half a second.
 
+> **Personal project.** Built for my own setup (Zen + Sine, two monitors side by side). Shared as-is: no support, and it may break when Zen updates. Issues and PRs may not get a response.
+
 This is a JavaScript mod for [Zen Browser](https://zen-browser.app) and needs the [Sine](https://github.com/CosmoCreeper/Sine) mod manager.
 
 ## Install
