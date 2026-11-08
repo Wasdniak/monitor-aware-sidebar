@@ -37,6 +37,10 @@ Sine only installs an update when `updatedAt` in `theme.json` is newer than the 
 
 Sine downloads the whole `main` branch, so anything pushed there goes live on the next update check.
 
+## Changelog
+
+- **1.1.1**: First release from GitHub; no behavior changes.
+
 ## License
 
 MIT. See [LICENSE](LICENSE).

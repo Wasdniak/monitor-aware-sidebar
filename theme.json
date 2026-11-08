@@ -3,9 +3,9 @@
   "name": "Monitor-Aware Sidebar",
   "description": "Puts the sidebar on the left on your left monitor and on the right on your right monitor, per window.",
   "author": "Wasdniak",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "homepage": "https://github.com/Wasdniak/monitor-aware-sidebar",
-  "updatedAt": "2026-11-08T14:20:05.000Z",
+  "updatedAt": "2026-11-08T14:29:43.000Z",
   "fork": ["zen"],
   "style": { "chrome": "", "content": "" },
   "scripts": {
