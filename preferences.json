@@ -1,0 +1,12 @@
+[
+  {"type":"checkbox","label":"Match the sidebar side to the window's monitor","property":"sine.monitor-aware-sidebar.enabled","defaultValue":true},
+  {"type":"dropdown","label":"When to follow the monitor","property":"sine.monitor-aware-sidebar.apply","defaultValue":"always","placeholder":false,"options":[
+    {"label":"Always","value":"always"},
+    {"label":"Only in compact mode","value":"compact"}
+  ]},
+  {"type":"dropdown","label":"How to tell left from right","property":"sine.monitor-aware-sidebar.mode","defaultValue":"auto","placeholder":false,"options":[
+    {"label":"Automatic (compare monitor positions)","value":"auto"},
+    {"label":"Manual boundary","value":"boundary"}
+  ]},
+  {"type":"string","label":"Manual boundary: monitors whose left edge is at or past this x get the sidebar on the right","property":"sine.monitor-aware-sidebar.boundary","defaultValue":"0","placeholder":"0","conditions":[{"if":{"property":"sine.monitor-aware-sidebar.mode","value":"boundary"}}]}
+]
